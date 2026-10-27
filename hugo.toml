@@ -14,14 +14,8 @@ theme = "nomad-tech"
     languageCode = "en-US"
     title = "Fatima's Portfolio | Data Analysis & AI"
     weight = 1
-  [languages.en]
-    languageCode = "en-US"
-    title = "Your Name - Digital Nomad | Tech Insights | Life Stories"
-    weight = 2
-  [languages.fr]
-    languageCode = "fr-FR"
-    title = "Your Name - Nomade Numérique | Tech | Vie"
-    weight = 3
+ 
+  
 
 [params]
   author = "Fatma Abdulle"
