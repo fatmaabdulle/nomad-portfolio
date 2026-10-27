@@ -1,0 +1,126 @@
+baseURL = "https://fatmaabdulle.github.io/nomad-portfolio/"
+defaultContentLanguage = "en"
+theme = "nomad-tech"
+
+[pagination]
+  pagerSize = 6
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[languages]
+  [languages.zh]
+    languageCode = "zh-CN"
+    title = "Data Science & AI | Portfolio"
+    weight = 1
+  [languages.en]
+    languageCode = "en-US"
+    title = "Your Name - Digital Nomad | Tech Insights | Life Stories"
+    weight = 2
+  [languages.fr]
+    languageCode = "fr-FR"
+    title = "Your Name - Nomade Numérique | Tech | Vie"
+    weight = 3
+
+[params]
+  author = "Fatma Abdulle"
+  logo = "DATA PORTFOLIO"
+  subtitle = "SQL • Python • Pandas • Power BI • Machine Learning • Computer Vision "
+  description = "I am passionate about solving problems, finding meaningful solutions, and using data to uncover insights that support better decisions."
+
+
+Website preview"
+
+  # Analytics (optional)
+  googleAnalytics = "G-2310RJEC91"
+
+  # Social Media Links
+  [[params.social]]
+    name = "YouTube"
+    class = "youtube"
+    icon = "📺"
+    description = "Tech reviews and nomad vlogs"
+    url = "https://www.youtube.com/@GP_ARC"
+    button_text = "Visit Channel"
+
+  [[params.social]]
+    name = "Twitter"
+    class = "wechat"
+    icon = "🐦"
+    description = "Tech thoughts and daily updates"
+    url = "https://x.com/m03315_"
+    button_text = "Follow Me"
+
+  # Portfolio Items
+  [[params.portfolio]]
+  title = "E-Commerce Sales and Order Data Analysis"
+  type = "Data Analytics"
+  icon = "📊"
+  description = "Analyzed 1,200 e-commerce orders to identify sales trends, customer purchasing patterns, payment preferences, and order performance."
+  tags = ["Python", "Pandas", "SQL", "Data Visualization"]
+
+  [[params.portfolio]]
+   title = "Rental Community Business Analytics"
+  type = "Business Intelligence"
+  icon = "🏢"
+  description = "Analyzed rental community data using MySQL and Power BI to evaluate rental income, overdue payments, maintenance costs, and tenant payment patterns. Developed dashboards and business recommendations to support property management decisions."
+  tags = ["SQL", "MySQL", "Power BI", "Data Analysis", "Business Intelligence"]
+
+
+  
+  [[params.portfolio]]
+  title = "Personal Fitness Tracker"
+  type = "Python Application"
+  icon = "💪"
+  description = "Developed a Python-based fitness tracking application using object-oriented programming. The application calculates BMI, estimates daily calorie needs, generates personalized fitness goals, and tracks daily steps and calorie intake."
+  tags = ["Python", "OOP", "BMI", "Fitness Tracking"]
+
+  [[params.portfolio]]
+  title = "Brain Tumor MRI Classification"
+  type = "Machine Learning & Computer Vision"
+  icon = "🧠"
+  description = "Developed and evaluated CNN and MobileNetV2 models to classify brain MRI images into four categories. Achieved 85.13% test accuracy with MobileNetV2 and implemented Grad-CAM visualizations and a FastAPI prediction prototype."
+  tags = ["Python", "TensorFlow", "CNN", "MobileNetV2", "Grad-CAM", "FastAPI"]
+
+
+  # Travel Timeline
+  [[params.travels]]
+    city = "Bangkok"
+    country = "Thailand"
+    flag = "🇹🇭"
+    period = "2024.01 - 2024.03"
+    description = "Started my nomad journey in the vibrant capital of Thailand"
+    highlights = ["Co-working spaces", "Street food", "Tech meetups"]
+
+  [[params.travels]]
+    city = "Chiang Mai"
+    country = "Thailand"
+    flag = "🇹🇭"
+    period = "2024.04 - 2024.06"
+    description = "Digital nomad hub with amazing community and low cost of living"
+    highlights = ["Nomad Summit", "Temples", "Mountain views"]
+
+  [[params.travels]]
+    city = "Bali"
+    country = "Indonesia"
+    flag = "🇮🇩"
+    period = "2024.07 - Present"
+    description = "Current base with perfect blend of work and surf lifestyle"
+    highlights = ["Surfing", "Rice terraces", "Startup scene"]
+
+  # Contact Information
+  [[params.contact]]
+    icon = "📧"
+    name = "email"
+    value = "me@m03315.top"
+  
+  [[params.contact]]
+    icon = "💬"
+    name = "wechat"
+    value = "m03315_"
+  
+  [[params.contact]]
+    icon = "🐦"
+    name = "twitter"
+    value = "@m03315_"
