@@ -10,9 +10,9 @@ theme = "nomad-tech"
   tag = "tags"
 
 [languages]
-  [languages.zh]
-    languageCode = "zh-CN"
-    title = "Data Science & AI | Portfolio"
+  [languages.en]
+    languageCode = "en-US"
+    title = "Fatima's Portfolio | Data Analysis & AI"
     weight = 1
   [languages.en]
     languageCode = "en-US"
@@ -25,10 +25,9 @@ theme = "nomad-tech"
 
 [params]
   author = "Fatma Abdulle"
-  logo = "DATA PORTFOLIO"
+  logo = "Fatima's PORTFOLIO"
   subtitle = "SQL • Python • Pandas • Power BI • Machine Learning • Computer Vision "
-  description = "I am passionate about solving problems, finding meaningful solutions, and using data to uncover insights that support better decisions."
-
+  description = "I am passionate about understanding problems, exploring possibilities, and using data to find solutions that make a real difference."
 
 
 
